@@ -1,4 +1,5 @@
 # Aleksandr Izmailow
+![Photo](./IMG_3236_Original.jpg)
 ---
 ## Contacts:
 - Location: Minsk, Belarus
