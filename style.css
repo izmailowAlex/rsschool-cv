@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    background-color: rgb(203, 199, 199);
+}
+
+.cv_card {
+    max-width: 40%;
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 50px rgb(136, 133, 133);
+}
+
+.cv_card__block_left {
+    width: 27%;
+    line-height: 18px;
+}
+
+.cv_card__block_left {
+    background-color: rgb(12, 12, 12);
+    color: #ccc;
+}
+
+.block_left__avatar {
+    background-image: url(./components/IMG_3236_Original.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.block_left__education,
+.block_left__skills {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.education__title,
+.skills__title {
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(252, 195, 37);
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.education__list,
+.skills__list {
+    font-size: 12px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.education__list,
+.education__list ul,
+.skills__list {
+    list-style: none;
+}
+
+.education__list li,
+.skills__list li {
+    margin-bottom: 5px;
+}
+
+.education__list ul {
+    margin-top: 5px;
+}
+
+.skills__list {
+    line-height: 14px;
+}
+
+.block_left__contacts {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contacts__title,
+.contacts__title_contain {
+    height: 20px;
+}
+
+.contacts__title {
+    display: flex;
+}
+
+.contacts__title_block {
+    width: 40px;
+    height: 100%;
+    background-color: rgb(252, 195, 37);
+}
+
+.contacts__title_name {
+    padding-left: 5%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+
+.contacts__title_contain {
+    margin-left: 22%;
+    font-size: 10px;
+}
+
+.cv_card__block_right {
+    width: 73%;
+    background-color: #fff;
+}
+
+.block_right__header {
+    margin: 40px 0 35px 0;
+    padding-left: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(252, 195, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header__name {
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.header__name span {
+    font-weight: bold;
+}
+
+.header__prof {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.block_right__about,
+.block_right__code,
+.block_right__english {
+    padding: 20px 40px;
+}
+
+.about__title,
+.code__title,
+.english__title {
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(80, 77, 77);
+    color: rgb(80, 77, 77);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.about__text,
+.code__text,
+.about__text {
+    padding-top: 30px;
+    color: rgb(80, 77, 77);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.code__text {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(153, 153, 153, 0.1);
+    font-size: 8px;
+}
+
+.code__text span {
+    padding-left: 30px;
+}
