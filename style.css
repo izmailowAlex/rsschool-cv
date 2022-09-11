@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    background-color: rgb(203, 199, 199);
+}
+
+.cv_card {
+    max-width: 40%;
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 50px rgb(136, 133, 133);
+}
+
+.cv_card__block_left {
+    width: 27%;
+    line-height: 18px;
+}
+
+.cv_card__block_left {
+    background-color: rgb(12, 12, 12);
+    color: #ccc;
+}
+
+.block_left__avatar {
+    background-image: url(IMG_3236_Original_min.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cv_card__block_right {
+    width: 73%;
+    background-color: #fff;
+}
+
+.block_right__header {
+    margin: 40px 0 35px 0;
+    padding-left: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(252, 195, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
