@@ -6,7 +6,7 @@
 
 - Location: Minsk, Belarus
 - Phone: +375 29 217 12 40
-- E-mail: zippon28@gmail.com
+- E-mail: iz_84@mail.ru
 - Telegram: @aleks_bass
 - Codewars: @izmailowAlex
 - GitHub: @izmailowAlex
@@ -16,16 +16,17 @@
 
 ## About me:
 
-## _I have been learning a programming language since 2021. I am a musician by education, I play the bass guitar, I graduated from the Academy of Music. Now I decided to try myself in a new field, as I really like to develop and not stand still. I also enjoy sports in my free time._
+## _I have been studying JavaScript since 2020. I decided to try myself in a new field, because I like to keep up with the times, learn something new, and I really like spending time at the computer._
 
 ## Skills:
 
-- HTML
-- CSS
 - JAVASCRIPT
+- TYPESCRIPT
+- HTML
+- CSS/SASS/SCSS
+- REACTJS
+- WEBPACK
 - GIT
-- REACT
-- ANGULAR
 
 ---
 
@@ -48,4 +49,12 @@ function stairsIn20(a) {
 
 ## English:
 
-**A2** (studying at the school of foreign languages Streamline)
+**B1** (studying at the school of foreign languages Streamline)
+
+## My works
+
+- (Schelter)[https://izmailowalex.github.io/Shelter/shelter/pages/main/]
+- (Online-store)[https://online-store-balloon.netlify.app]
+- (Music-quiz)[https://github.com/izmailowAlex/music_quiz]
+- (Carousel)[https://github.com/izmailowAlex/Carousel]
+- (Hardware-store)[https://radiant-valkyrie-5a3c60.netlify.app/]
